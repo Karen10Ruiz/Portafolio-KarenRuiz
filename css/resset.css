@@ -13,10 +13,18 @@
 */
 /* Aquí definimos las Custom properties */
 :root {
-  --negro: #393939;
+
+  --magenta: #CA65FF;
+  --light-magenta: #DC99FF ;
+  --dark-magenta: #954EC4 ;
+  --white: #FFFFFF ;
+  --blue: #FFFFFF ;
+  --light-blue:  #81F3FE ;
+  --dark-blue: #2A98D0 ;
+  --black: #393939;
   /* Tipografía */
-  --tipo-principal: "Poppins", sans-serif;
-  --tipo-secundaria: Verdana;
+  --tipo-titulos: "Poppins", sans-serif;
+
 }
 
 /* Las adaptamos al modo oscuro */
@@ -148,6 +156,7 @@ body {
   font-size: 100%;
   font-family: var(--tipo-principal);
   color: var(--negro);
+  background-color:var(--white) ;
   /* opcional */
   line-height: 1.4em;
   /* opcional */
